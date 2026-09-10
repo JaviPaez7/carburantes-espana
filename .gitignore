@@ -1,0 +1,6 @@
+# Volcado crudo (11,9 MB): se regenera con el curl del README
+data/raw_estaciones.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

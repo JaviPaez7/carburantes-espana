@@ -1,0 +1,3031 @@
+{
+ "resumen": {
+  "fecha_datos": "10/09/2026 22:31:58",
+  "estaciones": 11496,
+  "municipios": 3259,
+  "provincias": 52,
+  "marcas": 2419,
+  "abiertas_24h": 5359,
+  "venta_restringida": 0,
+  "gap_medio_municipio_g95": 0.208,
+  "gap_max_municipio_g95": 0.539,
+  "pct_diesel_mas_caro": 17.6,
+  "dif_media_diesel_gasolina": -0.029,
+  "cobertura": {
+   "Gasolina 95": 10934,
+   "Gasoleo A": 11281,
+   "Gasolina 98": 5505,
+   "Gasoleo Premium": 5920,
+   "Gasolina 95 E10": 29,
+   "GLP": 998,
+   "Gasoleo B": 2280,
+   "AdBlue": 2937,
+   "GNC": 141,
+   "Biodiesel": 29,
+   "GNL": 98,
+   "Bioetanol": 1,
+   "Hidrogeno": 0,
+   "Amoniaco": 0,
+   "Metanol": 0
+  }
+ },
+ "estadisticas_combustible": {
+  "Gasolina 95": {
+   "n": 10934,
+   "min": 1.289,
+   "p05": 1.615,
+   "p25": 1.769,
+   "mediana": 1.889,
+   "media": 1.848,
+   "p75": 1.949,
+   "p95": 1.989,
+   "max": 2.299,
+   "sd": 0.128,
+   "rango": 1.01
+  },
+  "Gasoleo A": {
+   "n": 11281,
+   "min": 1.429,
+   "p05": 1.629,
+   "p25": 1.739,
+   "mediana": 1.849,
+   "media": 1.818,
+   "p75": 1.899,
+   "p95": 1.939,
+   "max": 2.249,
+   "sd": 0.101,
+   "rango": 0.82
+  },
+  "Gasolina 98": {
+   "n": 5505,
+   "min": 1.387,
+   "p05": 1.629,
+   "p25": 1.989,
+   "mediana": 2.059,
+   "media": 2.008,
+   "p75": 2.095,
+   "p95": 2.135,
+   "max": 2.379,
+   "sd": 0.143,
+   "rango": 0.992
+  },
+  "Gasoleo Premium": {
+   "n": 5920,
+   "min": 1.469,
+   "p05": 1.699,
+   "p25": 1.84,
+   "mediana": 1.945,
+   "media": 1.909,
+   "p75": 1.985,
+   "p95": 2.029,
+   "max": 2.209,
+   "sd": 0.106,
+   "rango": 0.74
+  },
+  "Gasolina 95 E10": {
+   "n": 29,
+   "min": 1.598,
+   "p05": 1.693,
+   "p25": 1.778,
+   "mediana": 1.969,
+   "media": 1.91,
+   "p75": 1.999,
+   "p95": 2.062,
+   "max": 2.069,
+   "sd": 0.133,
+   "rango": 0.471
+  },
+  "GLP": {
+   "n": 998,
+   "min": 0.781,
+   "p05": 0.898,
+   "p25": 1.029,
+   "mediana": 1.125,
+   "media": 1.092,
+   "p75": 1.169,
+   "p95": 1.199,
+   "max": 1.29,
+   "sd": 0.097,
+   "rango": 0.509
+  },
+  "Gasoleo B": {
+   "n": 2280,
+   "min": 0.999,
+   "p05": 1.36,
+   "p25": 1.495,
+   "mediana": 1.627,
+   "media": 1.608,
+   "p75": 1.729,
+   "p95": 1.809,
+   "max": 2.199,
+   "sd": 0.151,
+   "rango": 1.2
+  },
+  "AdBlue": {
+   "n": 2937,
+   "min": 0.424,
+   "p05": 0.576,
+   "p25": 0.799,
+   "mediana": 0.899,
+   "media": 0.939,
+   "p75": 1.029,
+   "p95": 1.33,
+   "max": 3.413,
+   "sd": 0.25,
+   "rango": 2.989
+  },
+  "GNC": {
+   "n": 141,
+   "min": 1.299,
+   "p05": 1.66,
+   "p25": 1.725,
+   "mediana": 1.804,
+   "media": 1.789,
+   "p75": 1.826,
+   "p95": 1.999,
+   "max": 1.999,
+   "sd": 0.112,
+   "rango": 0.7
+  },
+  "Biodiesel": {
+   "n": 29,
+   "min": 1.639,
+   "p05": 1.669,
+   "p25": 1.699,
+   "mediana": 1.699,
+   "media": 1.765,
+   "p75": 1.799,
+   "p95": 1.99,
+   "max": 2.029,
+   "sd": 0.115,
+   "rango": 0.39
+  },
+  "GNL": {
+   "n": 98,
+   "min": 1.239,
+   "p05": 1.586,
+   "p25": 1.755,
+   "mediana": 1.759,
+   "media": 1.739,
+   "p75": 1.819,
+   "p95": 1.82,
+   "max": 1.849,
+   "sd": 0.101,
+   "rango": 0.61
+  },
+  "Bioetanol": {
+   "n": 1,
+   "min": 2.399,
+   "p05": 2.399,
+   "p25": 2.399,
+   "mediana": 2.399,
+   "media": 2.399,
+   "p75": 2.399,
+   "p95": 2.399,
+   "max": 2.399,
+   "sd": 0.0,
+   "rango": 0.0
+  }
+ },
+ "provincias_g95": [
+  {
+   "grupo": "Las Palmas",
+   "n": 254,
+   "mediana": 1.469,
+   "media": 1.453,
+   "min": 1.289,
+   "max": 1.589
+  },
+  {
+   "grupo": "Melilla",
+   "n": 12,
+   "mediana": 1.49,
+   "media": 1.488,
+   "min": 1.475,
+   "max": 1.494
+  },
+  {
+   "grupo": "Santa Cruz de Tenerife",
+   "n": 241,
+   "mediana": 1.515,
+   "media": 1.516,
+   "min": 1.34,
+   "max": 1.763
+  },
+  {
+   "grupo": "Ceuta",
+   "n": 10,
+   "mediana": 1.648,
+   "media": 1.643,
+   "min": 1.629,
+   "max": 1.649
+  },
+  {
+   "grupo": "Almería",
+   "n": 216,
+   "mediana": 1.809,
+   "media": 1.81,
+   "min": 1.499,
+   "max": 1.999
+  },
+  {
+   "grupo": "Valencia",
+   "n": 617,
+   "mediana": 1.82,
+   "media": 1.83,
+   "min": 1.567,
+   "max": 2.079
+  },
+  {
+   "grupo": "Lleida",
+   "n": 165,
+   "mediana": 1.839,
+   "media": 1.809,
+   "min": 1.4,
+   "max": 2.019
+  },
+  {
+   "grupo": "Córdoba",
+   "n": 204,
+   "mediana": 1.849,
+   "media": 1.839,
+   "min": 1.639,
+   "max": 1.959
+  },
+  {
+   "grupo": "Barcelona",
+   "n": 770,
+   "mediana": 1.859,
+   "media": 1.834,
+   "min": 1.459,
+   "max": 2.009
+  },
+  {
+   "grupo": "Jaén",
+   "n": 208,
+   "mediana": 1.859,
+   "media": 1.85,
+   "min": 1.599,
+   "max": 1.969
+  },
+  {
+   "grupo": "Navarra",
+   "n": 213,
+   "mediana": 1.859,
+   "media": 1.861,
+   "min": 1.599,
+   "max": 1.989
+  },
+  {
+   "grupo": "Sevilla",
+   "n": 434,
+   "mediana": 1.859,
+   "media": 1.838,
+   "min": 1.639,
+   "max": 2.019
+  },
+  {
+   "grupo": "Badajoz",
+   "n": 240,
+   "mediana": 1.862,
+   "media": 1.846,
+   "min": 1.639,
+   "max": 2.239
+  },
+  {
+   "grupo": "Castellón",
+   "n": 189,
+   "mediana": 1.864,
+   "media": 1.841,
+   "min": 1.529,
+   "max": 2.099
+  },
+  {
+   "grupo": "Granada",
+   "n": 279,
+   "mediana": 1.875,
+   "media": 1.844,
+   "min": 1.657,
+   "max": 1.991
+  },
+  {
+   "grupo": "Murcia",
+   "n": 430,
+   "mediana": 1.881,
+   "media": 1.84,
+   "min": 1.648,
+   "max": 2.199
+  },
+  {
+   "grupo": "Ciudad Real",
+   "n": 193,
+   "mediana": 1.889,
+   "media": 1.841,
+   "min": 1.579,
+   "max": 1.979
+  },
+  {
+   "grupo": "Huesca",
+   "n": 112,
+   "mediana": 1.895,
+   "media": 1.859,
+   "min": 1.589,
+   "max": 1.998
+  },
+  {
+   "grupo": "Salamanca",
+   "n": 105,
+   "mediana": 1.895,
+   "media": 1.88,
+   "min": 1.76,
+   "max": 1.999
+  },
+  {
+   "grupo": "Girona",
+   "n": 259,
+   "mediana": 1.899,
+   "media": 1.868,
+   "min": 1.618,
+   "max": 2.059
+  },
+  {
+   "grupo": "León",
+   "n": 159,
+   "mediana": 1.899,
+   "media": 1.884,
+   "min": 1.729,
+   "max": 1.989
+  },
+  {
+   "grupo": "La Rioja",
+   "n": 80,
+   "mediana": 1.899,
+   "media": 1.863,
+   "min": 1.589,
+   "max": 1.999
+  },
+  {
+   "grupo": "Teruel",
+   "n": 63,
+   "mediana": 1.899,
+   "media": 1.86,
+   "min": 1.612,
+   "max": 1.999
+  },
+  {
+   "grupo": "Soria",
+   "n": 42,
+   "mediana": 1.904,
+   "media": 1.872,
+   "min": 1.655,
+   "max": 1.999
+  },
+  {
+   "grupo": "Pontevedra",
+   "n": 224,
+   "mediana": 1.905,
+   "media": 1.889,
+   "min": 1.699,
+   "max": 2.059
+  },
+  {
+   "grupo": "Albacete",
+   "n": 140,
+   "mediana": 1.909,
+   "media": 1.865,
+   "min": 1.613,
+   "max": 1.989
+  },
+  {
+   "grupo": "Cáceres",
+   "n": 146,
+   "mediana": 1.909,
+   "media": 1.884,
+   "min": 1.639,
+   "max": 2.059
+  },
+  {
+   "grupo": "Segovia",
+   "n": 75,
+   "mediana": 1.909,
+   "media": 1.886,
+   "min": 1.689,
+   "max": 1.999
+  },
+  {
+   "grupo": "Cádiz",
+   "n": 288,
+   "mediana": 1.912,
+   "media": 1.887,
+   "min": 1.669,
+   "max": 2.019
+  },
+  {
+   "grupo": "Toledo",
+   "n": 240,
+   "mediana": 1.912,
+   "media": 1.873,
+   "min": 1.607,
+   "max": 2.139
+  },
+  {
+   "grupo": "Huelva",
+   "n": 136,
+   "mediana": 1.914,
+   "media": 1.892,
+   "min": 1.642,
+   "max": 2.019
+  },
+  {
+   "grupo": "Zaragoza",
+   "n": 220,
+   "mediana": 1.915,
+   "media": 1.866,
+   "min": 1.572,
+   "max": 1.998
+  },
+  {
+   "grupo": "Ávila",
+   "n": 71,
+   "mediana": 1.919,
+   "media": 1.892,
+   "min": 1.609,
+   "max": 1.999
+  },
+  {
+   "grupo": "A Coruña",
+   "n": 283,
+   "mediana": 1.919,
+   "media": 1.896,
+   "min": 1.689,
+   "max": 2.029
+  },
+  {
+   "grupo": "Madrid",
+   "n": 858,
+   "mediana": 1.919,
+   "media": 1.869,
+   "min": 1.599,
+   "max": 2.049
+  },
+  {
+   "grupo": "Zamora",
+   "n": 79,
+   "mediana": 1.919,
+   "media": 1.889,
+   "min": 1.679,
+   "max": 1.999
+  },
+  {
+   "grupo": "Alicante",
+   "n": 478,
+   "mediana": 1.923,
+   "media": 1.876,
+   "min": 1.619,
+   "max": 2.009
+  },
+  {
+   "grupo": "Tarragona",
+   "n": 215,
+   "mediana": 1.925,
+   "media": 1.86,
+   "min": 1.465,
+   "max": 1.989
+  },
+  {
+   "grupo": "Cuenca",
+   "n": 106,
+   "mediana": 1.929,
+   "media": 1.891,
+   "min": 1.649,
+   "max": 2.029
+  },
+  {
+   "grupo": "Lugo",
+   "n": 126,
+   "mediana": 1.929,
+   "media": 1.899,
+   "min": 1.699,
+   "max": 2.079
+  },
+  {
+   "grupo": "Ourense",
+   "n": 88,
+   "mediana": 1.929,
+   "media": 1.908,
+   "min": 1.739,
+   "max": 2.014
+  },
+  {
+   "grupo": "Bizkaia",
+   "n": 126,
+   "mediana": 1.935,
+   "media": 1.897,
+   "min": 1.659,
+   "max": 2.029
+  },
+  {
+   "grupo": "Málaga",
+   "n": 304,
+   "mediana": 1.935,
+   "media": 1.896,
+   "min": 1.629,
+   "max": 2.099
+  },
+  {
+   "grupo": "Gipuzkoa",
+   "n": 131,
+   "mediana": 1.939,
+   "media": 1.899,
+   "min": 1.656,
+   "max": 1.999
+  },
+  {
+   "grupo": "Valladolid",
+   "n": 144,
+   "mediana": 1.939,
+   "media": 1.881,
+   "min": 1.689,
+   "max": 2.029
+  },
+  {
+   "grupo": "Álava",
+   "n": 68,
+   "mediana": 1.949,
+   "media": 1.882,
+   "min": 1.646,
+   "max": 2.029
+  },
+  {
+   "grupo": "Asturias",
+   "n": 225,
+   "mediana": 1.949,
+   "media": 1.928,
+   "min": 1.687,
+   "max": 2.09
+  },
+  {
+   "grupo": "Burgos",
+   "n": 134,
+   "mediana": 1.949,
+   "media": 1.9,
+   "min": 1.669,
+   "max": 2.035
+  },
+  {
+   "grupo": "Cantabria",
+   "n": 167,
+   "mediana": 1.95,
+   "media": 1.895,
+   "min": 1.679,
+   "max": 2.029
+  },
+  {
+   "grupo": "Guadalajara",
+   "n": 86,
+   "mediana": 1.959,
+   "media": 1.88,
+   "min": 1.599,
+   "max": 2.009
+  },
+  {
+   "grupo": "Palencia",
+   "n": 66,
+   "mediana": 1.959,
+   "media": 1.929,
+   "min": 1.737,
+   "max": 1.999
+  },
+  {
+   "grupo": "Illes Balears",
+   "n": 215,
+   "mediana": 1.985,
+   "media": 1.968,
+   "min": 1.769,
+   "max": 2.299
+  }
+ ],
+ "provincias_ga": [
+  {
+   "grupo": "Melilla",
+   "n": 12,
+   "mediana": 1.472,
+   "media": 1.471,
+   "min": 1.465,
+   "max": 1.477
+  },
+  {
+   "grupo": "Las Palmas",
+   "n": 254,
+   "mediana": 1.57,
+   "media": 1.563,
+   "min": 1.429,
+   "max": 1.78
+  },
+  {
+   "grupo": "Santa Cruz de Tenerife",
+   "n": 240,
+   "mediana": 1.619,
+   "media": 1.627,
+   "min": 1.467,
+   "max": 1.881
+  },
+  {
+   "grupo": "Ceuta",
+   "n": 10,
+   "mediana": 1.678,
+   "media": 1.673,
+   "min": 1.659,
+   "max": 1.679
+  },
+  {
+   "grupo": "Navarra",
+   "n": 237,
+   "mediana": 1.779,
+   "media": 1.793,
+   "min": 1.609,
+   "max": 1.969
+  },
+  {
+   "grupo": "Lleida",
+   "n": 180,
+   "mediana": 1.794,
+   "media": 1.777,
+   "min": 1.53,
+   "max": 1.969
+  },
+  {
+   "grupo": "Almería",
+   "n": 227,
+   "mediana": 1.799,
+   "media": 1.801,
+   "min": 1.64,
+   "max": 2.019
+  },
+  {
+   "grupo": "Valencia",
+   "n": 631,
+   "mediana": 1.799,
+   "media": 1.786,
+   "min": 1.545,
+   "max": 1.952
+  },
+  {
+   "grupo": "Barcelona",
+   "n": 780,
+   "mediana": 1.829,
+   "media": 1.812,
+   "min": 1.599,
+   "max": 2.005
+  },
+  {
+   "grupo": "Badajoz",
+   "n": 274,
+   "mediana": 1.839,
+   "media": 1.82,
+   "min": 1.654,
+   "max": 2.129
+  },
+  {
+   "grupo": "Girona",
+   "n": 269,
+   "mediana": 1.839,
+   "media": 1.811,
+   "min": 1.622,
+   "max": 1.979
+  },
+  {
+   "grupo": "Granada",
+   "n": 283,
+   "mediana": 1.839,
+   "media": 1.809,
+   "min": 1.655,
+   "max": 1.99
+  },
+  {
+   "grupo": "Murcia",
+   "n": 452,
+   "mediana": 1.839,
+   "media": 1.806,
+   "min": 1.638,
+   "max": 2.249
+  },
+  {
+   "grupo": "Sevilla",
+   "n": 441,
+   "mediana": 1.839,
+   "media": 1.825,
+   "min": 1.619,
+   "max": 2.029
+  },
+  {
+   "grupo": "Alicante",
+   "n": 482,
+   "mediana": 1.845,
+   "media": 1.815,
+   "min": 1.598,
+   "max": 1.99
+  },
+  {
+   "grupo": "Tarragona",
+   "n": 227,
+   "mediana": 1.845,
+   "media": 1.796,
+   "min": 1.6,
+   "max": 1.949
+  },
+  {
+   "grupo": "Cádiz",
+   "n": 292,
+   "mediana": 1.847,
+   "media": 1.83,
+   "min": 1.679,
+   "max": 1.976
+  },
+  {
+   "grupo": "Castellón",
+   "n": 191,
+   "mediana": 1.848,
+   "media": 1.825,
+   "min": 1.599,
+   "max": 2.074
+  },
+  {
+   "grupo": "Zaragoza",
+   "n": 233,
+   "mediana": 1.849,
+   "media": 1.815,
+   "min": 1.627,
+   "max": 1.909
+  },
+  {
+   "grupo": "Ciudad Real",
+   "n": 213,
+   "mediana": 1.855,
+   "media": 1.815,
+   "min": 1.579,
+   "max": 1.979
+  },
+  {
+   "grupo": "Burgos",
+   "n": 138,
+   "mediana": 1.857,
+   "media": 1.821,
+   "min": 1.647,
+   "max": 1.998
+  },
+  {
+   "grupo": "La Rioja",
+   "n": 82,
+   "mediana": 1.858,
+   "media": 1.827,
+   "min": 1.634,
+   "max": 1.949
+  },
+  {
+   "grupo": "Salamanca",
+   "n": 109,
+   "mediana": 1.859,
+   "media": 1.832,
+   "min": 1.684,
+   "max": 1.942
+  },
+  {
+   "grupo": "Teruel",
+   "n": 68,
+   "mediana": 1.859,
+   "media": 1.812,
+   "min": 1.631,
+   "max": 1.9
+  },
+  {
+   "grupo": "A Coruña",
+   "n": 286,
+   "mediana": 1.868,
+   "media": 1.841,
+   "min": 1.627,
+   "max": 1.959
+  },
+  {
+   "grupo": "Córdoba",
+   "n": 209,
+   "mediana": 1.869,
+   "media": 1.84,
+   "min": 1.629,
+   "max": 1.949
+  },
+  {
+   "grupo": "Huesca",
+   "n": 122,
+   "mediana": 1.869,
+   "media": 1.829,
+   "min": 1.625,
+   "max": 1.98
+  },
+  {
+   "grupo": "Toledo",
+   "n": 243,
+   "mediana": 1.869,
+   "media": 1.838,
+   "min": 1.648,
+   "max": 2.119
+  },
+  {
+   "grupo": "Segovia",
+   "n": 76,
+   "mediana": 1.873,
+   "media": 1.843,
+   "min": 1.699,
+   "max": 1.959
+  },
+  {
+   "grupo": "Madrid",
+   "n": 863,
+   "mediana": 1.875,
+   "media": 1.834,
+   "min": 1.645,
+   "max": 2.059
+  },
+  {
+   "grupo": "Pontevedra",
+   "n": 225,
+   "mediana": 1.875,
+   "media": 1.85,
+   "min": 1.655,
+   "max": 1.979
+  },
+  {
+   "grupo": "Bizkaia",
+   "n": 127,
+   "mediana": 1.879,
+   "media": 1.841,
+   "min": 1.599,
+   "max": 2.004
+  },
+  {
+   "grupo": "Huelva",
+   "n": 141,
+   "mediana": 1.879,
+   "media": 1.864,
+   "min": 1.671,
+   "max": 2.249
+  },
+  {
+   "grupo": "Jaén",
+   "n": 212,
+   "mediana": 1.879,
+   "media": 1.854,
+   "min": 1.669,
+   "max": 1.969
+  },
+  {
+   "grupo": "Lugo",
+   "n": 128,
+   "mediana": 1.879,
+   "media": 1.861,
+   "min": 1.649,
+   "max": 1.953
+  },
+  {
+   "grupo": "Ourense",
+   "n": 88,
+   "mediana": 1.879,
+   "media": 1.863,
+   "min": 1.715,
+   "max": 1.97
+  },
+  {
+   "grupo": "Soria",
+   "n": 41,
+   "mediana": 1.879,
+   "media": 1.823,
+   "min": 1.649,
+   "max": 1.929
+  },
+  {
+   "grupo": "Valladolid",
+   "n": 149,
+   "mediana": 1.879,
+   "media": 1.829,
+   "min": 1.637,
+   "max": 1.969
+  },
+  {
+   "grupo": "Cuenca",
+   "n": 116,
+   "mediana": 1.885,
+   "media": 1.851,
+   "min": 1.617,
+   "max": 1.999
+  },
+  {
+   "grupo": "Zamora",
+   "n": 85,
+   "mediana": 1.885,
+   "media": 1.844,
+   "min": 1.669,
+   "max": 1.966
+  },
+  {
+   "grupo": "Albacete",
+   "n": 148,
+   "mediana": 1.889,
+   "media": 1.847,
+   "min": 1.499,
+   "max": 1.989
+  },
+  {
+   "grupo": "Gipuzkoa",
+   "n": 144,
+   "mediana": 1.891,
+   "media": 1.857,
+   "min": 1.589,
+   "max": 1.989
+  },
+  {
+   "grupo": "Guadalajara",
+   "n": 88,
+   "mediana": 1.895,
+   "media": 1.847,
+   "min": 1.667,
+   "max": 1.99
+  },
+  {
+   "grupo": "León",
+   "n": 165,
+   "mediana": 1.895,
+   "media": 1.862,
+   "min": 1.699,
+   "max": 1.949
+  },
+  {
+   "grupo": "Álava",
+   "n": 72,
+   "mediana": 1.897,
+   "media": 1.841,
+   "min": 1.627,
+   "max": 2.019
+  },
+  {
+   "grupo": "Asturias",
+   "n": 240,
+   "mediana": 1.899,
+   "media": 1.877,
+   "min": 1.717,
+   "max": 1.979
+  },
+  {
+   "grupo": "Ávila",
+   "n": 72,
+   "mediana": 1.899,
+   "media": 1.873,
+   "min": 1.699,
+   "max": 1.959
+  },
+  {
+   "grupo": "Cáceres",
+   "n": 158,
+   "mediana": 1.899,
+   "media": 1.87,
+   "min": 1.649,
+   "max": 2.019
+  },
+  {
+   "grupo": "Cantabria",
+   "n": 168,
+   "mediana": 1.899,
+   "media": 1.841,
+   "min": 1.639,
+   "max": 1.959
+  },
+  {
+   "grupo": "Málaga",
+   "n": 307,
+   "mediana": 1.899,
+   "media": 1.863,
+   "min": 1.609,
+   "max": 2.149
+  },
+  {
+   "grupo": "Palencia",
+   "n": 68,
+   "mediana": 1.909,
+   "media": 1.885,
+   "min": 1.699,
+   "max": 1.955
+  },
+  {
+   "grupo": "Illes Balears",
+   "n": 215,
+   "mediana": 1.929,
+   "media": 1.923,
+   "min": 1.759,
+   "max": 2.149
+  }
+ ],
+ "ccaa_g95": [
+  {
+   "grupo": "Canarias",
+   "n": 495,
+   "mediana": 1.484,
+   "media": 1.484,
+   "min": 1.289,
+   "max": 1.763
+  },
+  {
+   "grupo": "Melilla",
+   "n": 12,
+   "mediana": 1.49,
+   "media": 1.488,
+   "min": 1.475,
+   "max": 1.494
+  },
+  {
+   "grupo": "Ceuta",
+   "n": 10,
+   "mediana": 1.648,
+   "media": 1.643,
+   "min": 1.629,
+   "max": 1.649
+  },
+  {
+   "grupo": "País Vasco",
+   "n": 213,
+   "mediana": 1.859,
+   "media": 1.861,
+   "min": 1.599,
+   "max": 1.989
+  },
+  {
+   "grupo": "Extremadura",
+   "n": 1284,
+   "mediana": 1.879,
+   "media": 1.849,
+   "min": 1.529,
+   "max": 2.099
+  },
+  {
+   "grupo": "Andalucía",
+   "n": 2069,
+   "mediana": 1.879,
+   "media": 1.856,
+   "min": 1.499,
+   "max": 2.099
+  },
+  {
+   "grupo": "Cataluña",
+   "n": 1409,
+   "mediana": 1.879,
+   "media": 1.841,
+   "min": 1.4,
+   "max": 2.059
+  },
+  {
+   "grupo": "Navarra",
+   "n": 430,
+   "mediana": 1.881,
+   "media": 1.84,
+   "min": 1.648,
+   "max": 2.199
+  },
+  {
+   "grupo": "Galicia",
+   "n": 386,
+   "mediana": 1.889,
+   "media": 1.86,
+   "min": 1.639,
+   "max": 2.239
+  },
+  {
+   "grupo": "Castilla-La Mancha",
+   "n": 765,
+   "mediana": 1.899,
+   "media": 1.866,
+   "min": 1.579,
+   "max": 2.139
+  },
+  {
+   "grupo": "Aragón",
+   "n": 395,
+   "mediana": 1.899,
+   "media": 1.863,
+   "min": 1.572,
+   "max": 1.999
+  },
+  {
+   "grupo": "Comunitat Valenciana",
+   "n": 80,
+   "mediana": 1.899,
+   "media": 1.863,
+   "min": 1.589,
+   "max": 1.999
+  },
+  {
+   "grupo": "Castilla y León",
+   "n": 875,
+   "mediana": 1.915,
+   "media": 1.89,
+   "min": 1.609,
+   "max": 2.035
+  },
+  {
+   "grupo": "Madrid",
+   "n": 721,
+   "mediana": 1.919,
+   "media": 1.896,
+   "min": 1.689,
+   "max": 2.079
+  },
+  {
+   "grupo": "Murcia",
+   "n": 858,
+   "mediana": 1.919,
+   "media": 1.869,
+   "min": 1.599,
+   "max": 2.049
+  },
+  {
+   "grupo": "La Rioja",
+   "n": 325,
+   "mediana": 1.939,
+   "media": 1.894,
+   "min": 1.646,
+   "max": 2.029
+  },
+  {
+   "grupo": "Asturias",
+   "n": 225,
+   "mediana": 1.949,
+   "media": 1.928,
+   "min": 1.687,
+   "max": 2.09
+  },
+  {
+   "grupo": "Cantabria",
+   "n": 167,
+   "mediana": 1.95,
+   "media": 1.895,
+   "min": 1.679,
+   "max": 2.029
+  },
+  {
+   "grupo": "Baleares",
+   "n": 215,
+   "mediana": 1.985,
+   "media": 1.968,
+   "min": 1.769,
+   "max": 2.299
+  }
+ ],
+ "zonas_g95": [
+  {
+   "grupo": "Canarias",
+   "n": 495,
+   "mediana": 1.484,
+   "media": 1.484,
+   "min": 1.289,
+   "max": 1.763
+  },
+  {
+   "grupo": "Melilla",
+   "n": 12,
+   "mediana": 1.49,
+   "media": 1.488,
+   "min": 1.475,
+   "max": 1.494
+  },
+  {
+   "grupo": "Ceuta",
+   "n": 10,
+   "mediana": 1.648,
+   "media": 1.643,
+   "min": 1.629,
+   "max": 1.649
+  },
+  {
+   "grupo": "Península",
+   "n": 10202,
+   "mediana": 1.899,
+   "media": 1.864,
+   "min": 1.4,
+   "max": 2.239
+  },
+  {
+   "grupo": "Baleares",
+   "n": 215,
+   "mediana": 1.985,
+   "media": 1.968,
+   "min": 1.769,
+   "max": 2.299
+  }
+ ],
+ "marcas_g95": [
+  {
+   "grupo": "Disa",
+   "n": 139,
+   "mediana": 1.509,
+   "media": 1.519,
+   "min": 1.309,
+   "max": 1.839
+  },
+  {
+   "grupo": "BonÀrea",
+   "n": 65,
+   "mediana": 1.678,
+   "media": 1.678,
+   "min": 1.668,
+   "max": 1.688
+  },
+  {
+   "grupo": "Gasexpress",
+   "n": 40,
+   "mediana": 1.729,
+   "media": 1.726,
+   "min": 1.619,
+   "max": 1.819
+  },
+  {
+   "grupo": "Plenergy",
+   "n": 389,
+   "mediana": 1.739,
+   "media": 1.72,
+   "min": 1.289,
+   "max": 1.879
+  },
+  {
+   "grupo": "Ballenoil",
+   "n": 415,
+   "mediana": 1.739,
+   "media": 1.734,
+   "min": 1.567,
+   "max": 1.855
+  },
+  {
+   "grupo": "Petroprix",
+   "n": 186,
+   "mediana": 1.739,
+   "media": 1.714,
+   "min": 1.289,
+   "max": 1.855
+  },
+  {
+   "grupo": "Alcampo",
+   "n": 55,
+   "mediana": 1.743,
+   "media": 1.745,
+   "min": 1.649,
+   "max": 1.909
+  },
+  {
+   "grupo": "Esclatoil",
+   "n": 71,
+   "mediana": 1.749,
+   "media": 1.743,
+   "min": 1.719,
+   "max": 1.789
+  },
+  {
+   "grupo": "Tamoil",
+   "n": 30,
+   "mediana": 1.754,
+   "media": 1.765,
+   "min": 1.679,
+   "max": 1.869
+  },
+  {
+   "grupo": "Beroil",
+   "n": 37,
+   "mediana": 1.759,
+   "media": 1.743,
+   "min": 1.589,
+   "max": 1.965
+  },
+  {
+   "grupo": "Nieves",
+   "n": 19,
+   "mediana": 1.765,
+   "media": 1.773,
+   "min": 1.673,
+   "max": 1.889
+  },
+  {
+   "grupo": "Eroski",
+   "n": 40,
+   "mediana": 1.769,
+   "media": 1.764,
+   "min": 1.618,
+   "max": 1.849
+  },
+  {
+   "grupo": "Petromiralles",
+   "n": 14,
+   "mediana": 1.779,
+   "media": 1.775,
+   "min": 1.699,
+   "max": 1.899
+  },
+  {
+   "grupo": "Otras marcas",
+   "n": 3055,
+   "mediana": 1.789,
+   "media": 1.788,
+   "min": 1.309,
+   "max": 2.199
+  },
+  {
+   "grupo": "Agla",
+   "n": 69,
+   "mediana": 1.799,
+   "media": 1.806,
+   "min": 1.655,
+   "max": 2.099
+  },
+  {
+   "grupo": "Autonetoil",
+   "n": 21,
+   "mediana": 1.799,
+   "media": 1.811,
+   "min": 1.739,
+   "max": 1.969
+  },
+  {
+   "grupo": "Sin Rotulo",
+   "n": 15,
+   "mediana": 1.82,
+   "media": 1.819,
+   "min": 1.699,
+   "max": 1.979
+  },
+  {
+   "grupo": "Easygas",
+   "n": 18,
+   "mediana": 1.829,
+   "media": 1.816,
+   "min": 1.749,
+   "max": 1.859
+  },
+  {
+   "grupo": "Q8",
+   "n": 87,
+   "mediana": 1.849,
+   "media": 1.858,
+   "min": 1.719,
+   "max": 1.999
+  },
+  {
+   "grupo": "Iberdoex",
+   "n": 20,
+   "mediana": 1.864,
+   "media": 1.837,
+   "min": 1.72,
+   "max": 1.928
+  },
+  {
+   "grupo": "Meroil",
+   "n": 40,
+   "mediana": 1.865,
+   "media": 1.859,
+   "min": 1.669,
+   "max": 2.029
+  },
+  {
+   "grupo": "Shell",
+   "n": 393,
+   "mediana": 1.869,
+   "media": 1.823,
+   "min": 1.359,
+   "max": 1.999
+  },
+  {
+   "grupo": "Carrefour",
+   "n": 146,
+   "mediana": 1.889,
+   "media": 1.885,
+   "min": 1.649,
+   "max": 1.959
+  },
+  {
+   "grupo": "Avia",
+   "n": 101,
+   "mediana": 1.889,
+   "media": 1.872,
+   "min": 1.629,
+   "max": 1.999
+  },
+  {
+   "grupo": "Galp",
+   "n": 474,
+   "mediana": 1.899,
+   "media": 1.885,
+   "min": 1.669,
+   "max": 2.009
+  },
+  {
+   "grupo": "Petrocat",
+   "n": 18,
+   "mediana": 1.922,
+   "media": 1.933,
+   "min": 1.889,
+   "max": 1.989
+  },
+  {
+   "grupo": "Cepsa",
+   "n": 612,
+   "mediana": 1.929,
+   "media": 1.905,
+   "min": 1.449,
+   "max": 2.079
+  },
+  {
+   "grupo": "Campsa",
+   "n": 69,
+   "mediana": 1.929,
+   "media": 1.896,
+   "min": 1.689,
+   "max": 1.999
+  },
+  {
+   "grupo": "BP",
+   "n": 674,
+   "mediana": 1.938,
+   "media": 1.894,
+   "min": 1.415,
+   "max": 2.059
+  },
+  {
+   "grupo": "Moeve",
+   "n": 616,
+   "mediana": 1.939,
+   "media": 1.912,
+   "min": 1.439,
+   "max": 2.299
+  },
+  {
+   "grupo": "Petronor",
+   "n": 161,
+   "mediana": 1.945,
+   "media": 1.941,
+   "min": 1.761,
+   "max": 2.029
+  },
+  {
+   "grupo": "Repsol",
+   "n": 2795,
+   "mediana": 1.949,
+   "media": 1.939,
+   "min": 1.419,
+   "max": 2.239
+  },
+  {
+   "grupo": "Valcarce",
+   "n": 48,
+   "mediana": 1.949,
+   "media": 1.924,
+   "min": 1.787,
+   "max": 1.989
+  }
+ ],
+ "marcas_ga": [
+  {
+   "grupo": "Disa",
+   "n": 140,
+   "mediana": 1.619,
+   "media": 1.623,
+   "min": 1.459,
+   "max": 1.849
+  },
+  {
+   "grupo": "BonÀrea",
+   "n": 68,
+   "mediana": 1.623,
+   "media": 1.623,
+   "min": 1.613,
+   "max": 1.633
+  },
+  {
+   "grupo": "Petromiralles",
+   "n": 16,
+   "mediana": 1.689,
+   "media": 1.716,
+   "min": 1.669,
+   "max": 1.859
+  },
+  {
+   "grupo": "Alcampo",
+   "n": 55,
+   "mediana": 1.693,
+   "media": 1.698,
+   "min": 1.617,
+   "max": 1.779
+  },
+  {
+   "grupo": "Esclatoil",
+   "n": 71,
+   "mediana": 1.699,
+   "media": 1.699,
+   "min": 1.669,
+   "max": 1.739
+  },
+  {
+   "grupo": "Gasexpress",
+   "n": 40,
+   "mediana": 1.713,
+   "media": 1.709,
+   "min": 1.559,
+   "max": 1.807
+  },
+  {
+   "grupo": "Eroski",
+   "n": 40,
+   "mediana": 1.718,
+   "media": 1.718,
+   "min": 1.589,
+   "max": 1.805
+  },
+  {
+   "grupo": "Plenergy",
+   "n": 389,
+   "mediana": 1.719,
+   "media": 1.708,
+   "min": 1.429,
+   "max": 1.837
+  },
+  {
+   "grupo": "Ballenoil",
+   "n": 415,
+   "mediana": 1.719,
+   "media": 1.722,
+   "min": 1.545,
+   "max": 1.819
+  },
+  {
+   "grupo": "Beroil",
+   "n": 37,
+   "mediana": 1.719,
+   "media": 1.708,
+   "min": 1.639,
+   "max": 1.935
+  },
+  {
+   "grupo": "Petroprix",
+   "n": 186,
+   "mediana": 1.719,
+   "media": 1.702,
+   "min": 1.429,
+   "max": 1.827
+  },
+  {
+   "grupo": "Easygas",
+   "n": 18,
+   "mediana": 1.725,
+   "media": 1.732,
+   "min": 1.699,
+   "max": 1.789
+  },
+  {
+   "grupo": "Agropal",
+   "n": 9,
+   "mediana": 1.737,
+   "media": 1.737,
+   "min": 1.737,
+   "max": 1.737
+  },
+  {
+   "grupo": "Tamoil",
+   "n": 30,
+   "mediana": 1.744,
+   "media": 1.752,
+   "min": 1.669,
+   "max": 1.839
+  },
+  {
+   "grupo": "Otras marcas",
+   "n": 3351,
+   "mediana": 1.759,
+   "media": 1.768,
+   "min": 1.469,
+   "max": 2.249
+  },
+  {
+   "grupo": "Nieves",
+   "n": 21,
+   "mediana": 1.769,
+   "media": 1.759,
+   "min": 1.618,
+   "max": 1.849
+  },
+  {
+   "grupo": "Autonetoil",
+   "n": 21,
+   "mediana": 1.789,
+   "media": 1.785,
+   "min": 1.699,
+   "max": 1.939
+  },
+  {
+   "grupo": "Agla",
+   "n": 69,
+   "mediana": 1.798,
+   "media": 1.805,
+   "min": 1.718,
+   "max": 2.149
+  },
+  {
+   "grupo": "Sin Rotulo",
+   "n": 18,
+   "mediana": 1.799,
+   "media": 1.794,
+   "min": 1.654,
+   "max": 1.919
+  },
+  {
+   "grupo": "Meroil",
+   "n": 40,
+   "mediana": 1.816,
+   "media": 1.813,
+   "min": 1.667,
+   "max": 1.999
+  },
+  {
+   "grupo": "Shell",
+   "n": 393,
+   "mediana": 1.828,
+   "media": 1.799,
+   "min": 1.475,
+   "max": 1.949
+  },
+  {
+   "grupo": "Q8",
+   "n": 88,
+   "mediana": 1.829,
+   "media": 1.828,
+   "min": 1.699,
+   "max": 1.959
+  },
+  {
+   "grupo": "Avia",
+   "n": 102,
+   "mediana": 1.839,
+   "media": 1.828,
+   "min": 1.699,
+   "max": 1.929
+  },
+  {
+   "grupo": "Carrefour",
+   "n": 146,
+   "mediana": 1.849,
+   "media": 1.85,
+   "min": 1.619,
+   "max": 1.929
+  },
+  {
+   "grupo": "Galp",
+   "n": 477,
+   "mediana": 1.859,
+   "media": 1.847,
+   "min": 1.639,
+   "max": 1.999
+  },
+  {
+   "grupo": "Iberdoex",
+   "n": 20,
+   "mediana": 1.864,
+   "media": 1.849,
+   "min": 1.729,
+   "max": 1.954
+  },
+  {
+   "grupo": "BP",
+   "n": 672,
+   "mediana": 1.879,
+   "media": 1.86,
+   "min": 1.465,
+   "max": 1.995
+  },
+  {
+   "grupo": "Campsa",
+   "n": 69,
+   "mediana": 1.885,
+   "media": 1.86,
+   "min": 1.649,
+   "max": 1.955
+  },
+  {
+   "grupo": "Petronor",
+   "n": 162,
+   "mediana": 1.895,
+   "media": 1.893,
+   "min": 1.759,
+   "max": 1.969
+  },
+  {
+   "grupo": "Repsol",
+   "n": 2801,
+   "mediana": 1.899,
+   "media": 1.893,
+   "min": 1.489,
+   "max": 2.129
+  },
+  {
+   "grupo": "Moeve",
+   "n": 627,
+   "mediana": 1.899,
+   "media": 1.885,
+   "min": 1.467,
+   "max": 2.149
+  },
+  {
+   "grupo": "Cepsa",
+   "n": 620,
+   "mediana": 1.899,
+   "media": 1.88,
+   "min": 1.559,
+   "max": 2.029
+  },
+  {
+   "grupo": "Valcarce",
+   "n": 52,
+   "mediana": 1.899,
+   "media": 1.876,
+   "min": 1.709,
+   "max": 1.919
+  },
+  {
+   "grupo": "Petrocat",
+   "n": 18,
+   "mediana": 1.907,
+   "media": 1.899,
+   "min": 1.845,
+   "max": 1.939
+  }
+ ],
+ "marcas_g95_peninsula": [
+  {
+   "grupo": "BonÀrea",
+   "n": 65,
+   "mediana": 1.678,
+   "media": 1.678,
+   "min": 1.668,
+   "max": 1.688
+  },
+  {
+   "grupo": "Gasexpress",
+   "n": 40,
+   "mediana": 1.729,
+   "media": 1.726,
+   "min": 1.619,
+   "max": 1.819
+  },
+  {
+   "grupo": "Plenergy",
+   "n": 365,
+   "mediana": 1.739,
+   "media": 1.735,
+   "min": 1.567,
+   "max": 1.879
+  },
+  {
+   "grupo": "Ballenoil",
+   "n": 414,
+   "mediana": 1.739,
+   "media": 1.734,
+   "min": 1.567,
+   "max": 1.855
+  },
+  {
+   "grupo": "Petroprix",
+   "n": 173,
+   "mediana": 1.739,
+   "media": 1.742,
+   "min": 1.609,
+   "max": 1.855
+  },
+  {
+   "grupo": "Alcampo",
+   "n": 55,
+   "mediana": 1.743,
+   "media": 1.745,
+   "min": 1.649,
+   "max": 1.909
+  },
+  {
+   "grupo": "Esclatoil",
+   "n": 71,
+   "mediana": 1.749,
+   "media": 1.743,
+   "min": 1.719,
+   "max": 1.789
+  },
+  {
+   "grupo": "Tamoil",
+   "n": 30,
+   "mediana": 1.754,
+   "media": 1.765,
+   "min": 1.679,
+   "max": 1.869
+  },
+  {
+   "grupo": "Beroil",
+   "n": 37,
+   "mediana": 1.759,
+   "media": 1.743,
+   "min": 1.589,
+   "max": 1.965
+  },
+  {
+   "grupo": "Eroski",
+   "n": 36,
+   "mediana": 1.76,
+   "media": 1.762,
+   "min": 1.618,
+   "max": 1.849
+  },
+  {
+   "grupo": "Nieves",
+   "n": 19,
+   "mediana": 1.765,
+   "media": 1.773,
+   "min": 1.673,
+   "max": 1.889
+  },
+  {
+   "grupo": "Petromiralles",
+   "n": 14,
+   "mediana": 1.779,
+   "media": 1.775,
+   "min": 1.699,
+   "max": 1.899
+  },
+  {
+   "grupo": "Autonetoil",
+   "n": 14,
+   "mediana": 1.784,
+   "media": 1.786,
+   "min": 1.739,
+   "max": 1.869
+  },
+  {
+   "grupo": "Otras marcas",
+   "n": 2948,
+   "mediana": 1.789,
+   "media": 1.797,
+   "min": 1.4,
+   "max": 2.199
+  },
+  {
+   "grupo": "Agla",
+   "n": 69,
+   "mediana": 1.799,
+   "media": 1.806,
+   "min": 1.655,
+   "max": 2.099
+  },
+  {
+   "grupo": "Sin Rotulo",
+   "n": 15,
+   "mediana": 1.82,
+   "media": 1.819,
+   "min": 1.699,
+   "max": 1.979
+  },
+  {
+   "grupo": "Easygas",
+   "n": 18,
+   "mediana": 1.829,
+   "media": 1.816,
+   "min": 1.749,
+   "max": 1.859
+  },
+  {
+   "grupo": "Q8",
+   "n": 87,
+   "mediana": 1.849,
+   "media": 1.858,
+   "min": 1.719,
+   "max": 1.999
+  },
+  {
+   "grupo": "Iberdoex",
+   "n": 20,
+   "mediana": 1.864,
+   "media": 1.837,
+   "min": 1.72,
+   "max": 1.928
+  },
+  {
+   "grupo": "Meroil",
+   "n": 40,
+   "mediana": 1.865,
+   "media": 1.859,
+   "min": 1.669,
+   "max": 2.029
+  },
+  {
+   "grupo": "Shell",
+   "n": 329,
+   "mediana": 1.879,
+   "media": 1.868,
+   "min": 1.689,
+   "max": 1.999
+  },
+  {
+   "grupo": "Carrefour",
+   "n": 145,
+   "mediana": 1.889,
+   "media": 1.885,
+   "min": 1.649,
+   "max": 1.959
+  },
+  {
+   "grupo": "Avia",
+   "n": 101,
+   "mediana": 1.889,
+   "media": 1.872,
+   "min": 1.629,
+   "max": 1.999
+  },
+  {
+   "grupo": "Galp",
+   "n": 466,
+   "mediana": 1.899,
+   "media": 1.883,
+   "min": 1.669,
+   "max": 2.009
+  },
+  {
+   "grupo": "Petrocat",
+   "n": 18,
+   "mediana": 1.922,
+   "media": 1.933,
+   "min": 1.889,
+   "max": 1.989
+  },
+  {
+   "grupo": "Campsa",
+   "n": 69,
+   "mediana": 1.929,
+   "media": 1.896,
+   "min": 1.689,
+   "max": 1.999
+  },
+  {
+   "grupo": "Cepsa",
+   "n": 556,
+   "mediana": 1.931,
+   "media": 1.929,
+   "min": 1.62,
+   "max": 2.079
+  },
+  {
+   "grupo": "BP",
+   "n": 577,
+   "mediana": 1.939,
+   "media": 1.933,
+   "min": 1.719,
+   "max": 2.059
+  },
+  {
+   "grupo": "Petronor",
+   "n": 159,
+   "mediana": 1.945,
+   "media": 1.941,
+   "min": 1.761,
+   "max": 2.029
+  },
+  {
+   "grupo": "Repsol",
+   "n": 2653,
+   "mediana": 1.949,
+   "media": 1.948,
+   "min": 1.719,
+   "max": 2.239
+  },
+  {
+   "grupo": "Moeve",
+   "n": 548,
+   "mediana": 1.949,
+   "media": 1.94,
+   "min": 1.789,
+   "max": 2.139
+  },
+  {
+   "grupo": "Valcarce",
+   "n": 48,
+   "mediana": 1.949,
+   "media": 1.924,
+   "min": 1.787,
+   "max": 1.989
+  }
+ ],
+ "marcas_ga_peninsula": [
+  {
+   "grupo": "BonÀrea",
+   "n": 68,
+   "mediana": 1.623,
+   "media": 1.623,
+   "min": 1.613,
+   "max": 1.633
+  },
+  {
+   "grupo": "Petromiralles",
+   "n": 16,
+   "mediana": 1.689,
+   "media": 1.716,
+   "min": 1.669,
+   "max": 1.859
+  },
+  {
+   "grupo": "Alcampo",
+   "n": 55,
+   "mediana": 1.693,
+   "media": 1.698,
+   "min": 1.617,
+   "max": 1.779
+  },
+  {
+   "grupo": "Esclatoil",
+   "n": 71,
+   "mediana": 1.699,
+   "media": 1.699,
+   "min": 1.669,
+   "max": 1.739
+  },
+  {
+   "grupo": "Eroski",
+   "n": 36,
+   "mediana": 1.709,
+   "media": 1.71,
+   "min": 1.589,
+   "max": 1.805
+  },
+  {
+   "grupo": "Gasexpress",
+   "n": 40,
+   "mediana": 1.713,
+   "media": 1.709,
+   "min": 1.559,
+   "max": 1.807
+  },
+  {
+   "grupo": "Ballenoil",
+   "n": 414,
+   "mediana": 1.719,
+   "media": 1.722,
+   "min": 1.545,
+   "max": 1.819
+  },
+  {
+   "grupo": "Beroil",
+   "n": 37,
+   "mediana": 1.719,
+   "media": 1.708,
+   "min": 1.639,
+   "max": 1.935
+  },
+  {
+   "grupo": "Petroprix",
+   "n": 173,
+   "mediana": 1.719,
+   "media": 1.719,
+   "min": 1.599,
+   "max": 1.827
+  },
+  {
+   "grupo": "Easygas",
+   "n": 18,
+   "mediana": 1.725,
+   "media": 1.732,
+   "min": 1.699,
+   "max": 1.789
+  },
+  {
+   "grupo": "Plenergy",
+   "n": 365,
+   "mediana": 1.727,
+   "media": 1.718,
+   "min": 1.545,
+   "max": 1.829
+  },
+  {
+   "grupo": "Agropal",
+   "n": 9,
+   "mediana": 1.737,
+   "media": 1.737,
+   "min": 1.737,
+   "max": 1.737
+  },
+  {
+   "grupo": "Tamoil",
+   "n": 30,
+   "mediana": 1.744,
+   "media": 1.752,
+   "min": 1.669,
+   "max": 1.839
+  },
+  {
+   "grupo": "Otras marcas",
+   "n": 3244,
+   "mediana": 1.759,
+   "media": 1.772,
+   "min": 1.499,
+   "max": 2.249
+  },
+  {
+   "grupo": "Autonetoil",
+   "n": 14,
+   "mediana": 1.764,
+   "media": 1.763,
+   "min": 1.699,
+   "max": 1.859
+  },
+  {
+   "grupo": "Nieves",
+   "n": 21,
+   "mediana": 1.769,
+   "media": 1.759,
+   "min": 1.618,
+   "max": 1.849
+  },
+  {
+   "grupo": "Agla",
+   "n": 69,
+   "mediana": 1.798,
+   "media": 1.805,
+   "min": 1.718,
+   "max": 2.149
+  },
+  {
+   "grupo": "Sin Rotulo",
+   "n": 18,
+   "mediana": 1.799,
+   "media": 1.794,
+   "min": 1.654,
+   "max": 1.919
+  },
+  {
+   "grupo": "Meroil",
+   "n": 40,
+   "mediana": 1.816,
+   "media": 1.813,
+   "min": 1.667,
+   "max": 1.999
+  },
+  {
+   "grupo": "Shell",
+   "n": 329,
+   "mediana": 1.829,
+   "media": 1.827,
+   "min": 1.629,
+   "max": 1.949
+  },
+  {
+   "grupo": "Q8",
+   "n": 88,
+   "mediana": 1.829,
+   "media": 1.828,
+   "min": 1.699,
+   "max": 1.959
+  },
+  {
+   "grupo": "Avia",
+   "n": 102,
+   "mediana": 1.839,
+   "media": 1.828,
+   "min": 1.699,
+   "max": 1.929
+  },
+  {
+   "grupo": "Carrefour",
+   "n": 145,
+   "mediana": 1.849,
+   "media": 1.849,
+   "min": 1.619,
+   "max": 1.929
+  },
+  {
+   "grupo": "Galp",
+   "n": 470,
+   "mediana": 1.859,
+   "media": 1.846,
+   "min": 1.639,
+   "max": 1.959
+  },
+  {
+   "grupo": "Iberdoex",
+   "n": 20,
+   "mediana": 1.864,
+   "media": 1.849,
+   "min": 1.729,
+   "max": 1.954
+  },
+  {
+   "grupo": "Campsa",
+   "n": 69,
+   "mediana": 1.885,
+   "media": 1.86,
+   "min": 1.649,
+   "max": 1.955
+  },
+  {
+   "grupo": "BP",
+   "n": 577,
+   "mediana": 1.889,
+   "media": 1.885,
+   "min": 1.749,
+   "max": 1.995
+  },
+  {
+   "grupo": "Petronor",
+   "n": 160,
+   "mediana": 1.895,
+   "media": 1.892,
+   "min": 1.759,
+   "max": 1.969
+  },
+  {
+   "grupo": "Repsol",
+   "n": 2659,
+   "mediana": 1.899,
+   "media": 1.899,
+   "min": 1.739,
+   "max": 2.129
+  },
+  {
+   "grupo": "Cepsa",
+   "n": 564,
+   "mediana": 1.899,
+   "media": 1.896,
+   "min": 1.697,
+   "max": 2.029
+  },
+  {
+   "grupo": "Valcarce",
+   "n": 52,
+   "mediana": 1.899,
+   "media": 1.876,
+   "min": 1.709,
+   "max": 1.919
+  },
+  {
+   "grupo": "Moeve",
+   "n": 558,
+   "mediana": 1.904,
+   "media": 1.903,
+   "min": 1.62,
+   "max": 2.119
+  },
+  {
+   "grupo": "Petrocat",
+   "n": 18,
+   "mediana": 1.907,
+   "media": 1.899,
+   "min": 1.845,
+   "max": 1.939
+  }
+ ],
+ "dispersion_municipios_g95": [
+  {
+   "municipio": "Badajoz (Badajoz)",
+   "n": 35,
+   "min": 1.7,
+   "max": 2.239,
+   "gap": 0.539,
+   "ahorro50": 26.95,
+   "barata": "Cooperativa Colonos De Gevora",
+   "barata_rotulo": "Cooperativa Colonos de Gévora",
+   "barata_dir": "Ctra. Badajoz-Montijo Km 30.2",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Ctra. Ex-100 Km 85,6"
+  },
+  {
+   "municipio": "Tarragona (Tarragona)",
+   "n": 28,
+   "min": 1.465,
+   "max": 1.989,
+   "gap": 0.524,
+   "ahorro50": 26.2,
+   "barata": "Oil Prix",
+   "barata_rotulo": "Oil Prix",
+   "barata_dir": "Calle Eix Transversal S/N, S/N",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Carrer del Coure, 2"
+  },
+  {
+   "municipio": "Mahón (Illes Balears)",
+   "n": 8,
+   "min": 1.799,
+   "max": 2.299,
+   "gap": 0.5,
+   "ahorro50": 25.0,
+   "barata": "Autonetoil",
+   "barata_rotulo": "Autonetoil",
+   "barata_dir": "Carrer Artruxt, 7",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Carretera Aeropuerto Km. 5"
+  },
+  {
+   "municipio": "Igualada (Barcelona)",
+   "n": 11,
+   "min": 1.459,
+   "max": 1.929,
+   "gap": 0.47,
+   "ahorro50": 23.5,
+   "barata": "By Energy",
+   "barata_rotulo": "By Energy",
+   "barata_dir": "Calle Prat de la Riba, S/N",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Avenida Europa, 26"
+  },
+  {
+   "municipio": "Alhama de Murcia (Murcia)",
+   "n": 8,
+   "min": 1.73,
+   "max": 2.199,
+   "gap": 0.469,
+   "ahorro50": 23.45,
+   "barata": "Juan Martinez Saura",
+   "barata_rotulo": "Juan Martinez Saura",
+   "barata_dir": "Carretera Cartagena Km. 1,6",
+   "cara": "Primafrio",
+   "cara_rotulo": "Primafrio",
+   "cara_dir": "Autovia del Mediterraneo Km. 596"
+  },
+  {
+   "municipio": "Manresa (Barcelona)",
+   "n": 15,
+   "min": 1.579,
+   "max": 1.999,
+   "gap": 0.42,
+   "ahorro50": 21.0,
+   "barata": "U S Manresa Gas Oils Rovira",
+   "barata_rotulo": "U.s. Manresa -Gas-Oils Rovira-",
+   "barata_dir": "Carrer Dolors, 19",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Calle Carretera de Vic, 225"
+  },
+  {
+   "municipio": "Navalmoral de la Mata (Cáceres)",
+   "n": 8,
+   "min": 1.639,
+   "max": 2.059,
+   "gap": 0.42,
+   "ahorro50": 21.0,
+   "barata": "Ballenoil",
+   "barata_rotulo": "Ballenoil",
+   "barata_dir": "Carretera Madrid-Lisboa Km. 44",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Carretera Cc 054 Km. 2,300"
+  },
+  {
+   "municipio": "Amposta (Tarragona)",
+   "n": 8,
+   "min": 1.562,
+   "max": 1.975,
+   "gap": 0.413,
+   "ahorro50": 20.65,
+   "barata": "Gasamp",
+   "barata_rotulo": "Gasamp",
+   "barata_dir": "Calle Orleans, 2",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Cl Avenida de la Rapita, 141"
+  },
+  {
+   "municipio": "Carcaixent (Valencia)",
+   "n": 6,
+   "min": 1.587,
+   "max": 1.998,
+   "gap": 0.411,
+   "ahorro50": 20.55,
+   "barata": "Family Energy",
+   "barata_rotulo": "Family Energy",
+   "barata_dir": "Avenida Boticari Bodi (c.c. Ribera del Xuquer), 28",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Calle Santa Barbara, 1"
+  },
+  {
+   "municipio": "Cuevas del Almanzora (Almería)",
+   "n": 6,
+   "min": 1.499,
+   "max": 1.909,
+   "gap": 0.41,
+   "ahorro50": 20.5,
+   "barata": "Es Borja E S Sobrado De Picato S L U",
+   "barata_rotulo": "Es Borja - E.s.sobrado de Picato, S.l.u",
+   "barata_dir": "Carretera A-332 Km. 11",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Cr Alp-118, 58,4"
+  },
+  {
+   "municipio": "El Ejido (Almería)",
+   "n": 33,
+   "min": 1.589,
+   "max": 1.999,
+   "gap": 0.41,
+   "ahorro50": 20.5,
+   "barata": "Econorias",
+   "barata_rotulo": "Econorias",
+   "barata_dir": "Loma del Viento,  Nº 78",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Avenida Oasis, 260"
+  },
+  {
+   "municipio": "Alzira (Valencia)",
+   "n": 11,
+   "min": 1.587,
+   "max": 1.992,
+   "gap": 0.405,
+   "ahorro50": 20.25,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Calle Benito Perez Galdos, 68",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Carretera Cc-3322 Km. 19,65"
+  },
+  {
+   "municipio": "Alfafar (Valencia)",
+   "n": 9,
+   "min": 1.609,
+   "max": 1.999,
+   "gap": 0.39,
+   "ahorro50": 19.5,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Calle Calle Sector  Ab, 1",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Cr N-332, 282"
+  },
+  {
+   "municipio": "Paiporta (Valencia)",
+   "n": 9,
+   "min": 1.609,
+   "max": 1.999,
+   "gap": 0.39,
+   "ahorro50": 19.5,
+   "barata": "Ballenoil",
+   "barata_rotulo": "Ballenoil",
+   "barata_dir": "Calle Acequia Favara, 5",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Carretera Benetuser  S/N Km."
+  },
+  {
+   "municipio": "Sagunto/Sagunt (Valencia)",
+   "n": 24,
+   "min": 1.619,
+   "max": 2.005,
+   "gap": 0.386,
+   "ahorro50": 19.3,
+   "barata": "Gasexpress",
+   "barata_rotulo": "Gasexpress",
+   "barata_dir": "Avenida de Les Moreres, S/N",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Autopista Ap-7 (mrg. Izdo.) Km. 479,5"
+  },
+  {
+   "municipio": "Xàtiva (Valencia)",
+   "n": 6,
+   "min": 1.695,
+   "max": 2.079,
+   "gap": 0.384,
+   "ahorro50": 19.2,
+   "barata": "B Energias",
+   "barata_rotulo": "+b Energias",
+   "barata_dir": "Calle Proyecto Mola 3, 6",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Camino Cm del Cementeri, S/N"
+  },
+  {
+   "municipio": "Moià (Barcelona)",
+   "n": 4,
+   "min": 1.579,
+   "max": 1.959,
+   "gap": 0.38,
+   "ahorro50": 19.0,
+   "barata": "Area Diesel",
+   "barata_rotulo": "Area Diesel",
+   "barata_dir": "Avinguda Zona Industrial, S/N",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Carretera N-141-C Km. 27,3"
+  },
+  {
+   "municipio": "Seseña (Toledo)",
+   "n": 10,
+   "min": 1.719,
+   "max": 2.099,
+   "gap": 0.38,
+   "ahorro50": 19.0,
+   "barata": "Ballenoil",
+   "barata_rotulo": "Ballenoil",
+   "barata_dir": "Camino del Ventorrillo C. V Ctra-Cm4010, S/N",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Autopista R-4 (mrg.izdo.) Km. 19,7"
+  },
+  {
+   "municipio": "Massanassa (Valencia)",
+   "n": 9,
+   "min": 1.609,
+   "max": 1.985,
+   "gap": 0.376,
+   "ahorro50": 18.8,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Avenida Generalitat Valenciana, 22",
+   "cara": "BP",
+   "cara_rotulo": "Bp Cary Ii",
+   "cara_dir": "Autovia Cv-31 Km. 9"
+  },
+  {
+   "municipio": "Barcelona (Barcelona)",
+   "n": 74,
+   "min": 1.627,
+   "max": 1.999,
+   "gap": 0.372,
+   "ahorro50": 18.6,
+   "barata": "Ballenoil",
+   "barata_rotulo": "Ballenoil",
+   "barata_dir": "Calle Lope de Vega, 125/139",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Calle Diputacion, 371"
+  },
+  {
+   "municipio": "Tudela (Navarra)",
+   "n": 15,
+   "min": 1.599,
+   "max": 1.969,
+   "gap": 0.37,
+   "ahorro50": 18.5,
+   "barata": "Eurocam",
+   "barata_rotulo": "Eurocam",
+   "barata_dir": "Poligono las Labradas Manzana 12",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Avenida Zaragoza, 73"
+  },
+  {
+   "municipio": "Sant Fruitós de Bages (Barcelona)",
+   "n": 5,
+   "min": 1.579,
+   "max": 1.945,
+   "gap": 0.366,
+   "ahorro50": 18.3,
+   "barata": "E S Rosaleda St Fruitos De Bages Gasoils Rovira",
+   "barata_rotulo": "E.s. Rosaleda  -St. Fruitos de Bages-     Gasoils Rovira",
+   "barata_dir": "Carretera N 141 C Km. 3,7",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Carretera de Santpedor Km. 3,5"
+  },
+  {
+   "municipio": "Pozuelo de Alarcón (Madrid)",
+   "n": 10,
+   "min": 1.645,
+   "max": 2.009,
+   "gap": 0.364,
+   "ahorro50": 18.2,
+   "barata": "Ballenoil",
+   "barata_rotulo": "Ballenoil",
+   "barata_dir": "Carretera Pozuelo Majadahonda Km. 2",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Carretera Carabanchel M-502 Km. 3600"
+  },
+  {
+   "municipio": "Molina de Aragón (Guadalajara)",
+   "n": 4,
+   "min": 1.599,
+   "max": 1.959,
+   "gap": 0.36,
+   "ahorro50": 18.0,
+   "barata": "Gasoleos Teruel",
+   "barata_rotulo": "Gasoleos Teruel",
+   "barata_dir": "Poligono los Tobares, 11",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Carretera N-211 Km. 60"
+  },
+  {
+   "municipio": "Alcalá de Henares (Madrid)",
+   "n": 32,
+   "min": 1.599,
+   "max": 1.959,
+   "gap": 0.36,
+   "ahorro50": 18.0,
+   "barata": "Energy",
+   "barata_rotulo": "Energy",
+   "barata_dir": "Calle Peru, 31",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Avenida Juan Carlos i, S/N"
+  }
+ ],
+ "dispersion_municipios_ga": [
+  {
+   "municipio": "Lepe (Huelva)",
+   "n": 11,
+   "min": 1.675,
+   "max": 2.249,
+   "gap": 0.574,
+   "ahorro50": 28.7,
+   "barata": "Cobella",
+   "barata_rotulo": "Cobella",
+   "barata_dir": "Avenida Blas Infante, S/N",
+   "cara": "Primafrio",
+   "cara_rotulo": "Primafrio",
+   "cara_dir": "Carretera Lepe-Ayamonte Km. 121"
+  },
+  {
+   "municipio": "Alhama de Murcia (Murcia)",
+   "n": 9,
+   "min": 1.7,
+   "max": 2.249,
+   "gap": 0.549,
+   "ahorro50": 27.45,
+   "barata": "Dialco El Prado",
+   "barata_rotulo": "Dialco el Prado",
+   "barata_dir": "Carretera e-10 Km. 1,750",
+   "cara": "Primafrio",
+   "cara_rotulo": "Primafrio",
+   "cara_dir": "Autovia del Mediterraneo Km. 596"
+  },
+  {
+   "municipio": "Badajoz (Badajoz)",
+   "n": 38,
+   "min": 1.688,
+   "max": 2.129,
+   "gap": 0.441,
+   "ahorro50": 22.05,
+   "barata": "Area San Martin",
+   "barata_rotulo": "Area San Martin",
+   "barata_dir": "Poligono Industrial el Nevero, 17",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Ctra. Ex-100 Km 85,6"
+  },
+  {
+   "municipio": "Leganés (Madrid)",
+   "n": 31,
+   "min": 1.659,
+   "max": 2.019,
+   "gap": 0.36,
+   "ahorro50": 18.0,
+   "barata": "Family Energy",
+   "barata_rotulo": "Family Energy",
+   "barata_dir": "Calle Isaac Peral, 12",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Carretera R-5 Km. 5,5"
+  },
+  {
+   "municipio": "Seseña (Toledo)",
+   "n": 11,
+   "min": 1.719,
+   "max": 2.079,
+   "gap": 0.36,
+   "ahorro50": 18.0,
+   "barata": "Ballenoil",
+   "barata_rotulo": "Ballenoil",
+   "barata_dir": "Camino del Ventorrillo C. V Ctra-Cm4010, S/N",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Autopista R-4 (mrg.izdo.) Km. 19,7"
+  },
+  {
+   "municipio": "Vilafranca del Penedès (Barcelona)",
+   "n": 10,
+   "min": 1.619,
+   "max": 1.972,
+   "gap": 0.353,
+   "ahorro50": 17.65,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Carrer Pau 2-Pous D'en Rossell, S/N",
+   "cara": "Servicios Penedes Sa",
+   "cara_rotulo": "Servicios Penedes Sa",
+   "cara_dir": "Calle Igualada, 70"
+  },
+  {
+   "municipio": "La Rinconada (Sevilla)",
+   "n": 14,
+   "min": 1.678,
+   "max": 2.029,
+   "gap": 0.351,
+   "ahorro50": 17.55,
+   "barata": "Masfuel",
+   "barata_rotulo": "Masfuel",
+   "barata_dir": "Carretera A-8002 Km. 7,6",
+   "cara": "Cepsa",
+   "cara_rotulo": "Cepsa",
+   "cara_dir": "Carretera A-431 Km. 133,9"
+  },
+  {
+   "municipio": "Mahón (Illes Balears)",
+   "n": 9,
+   "min": 1.799,
+   "max": 2.149,
+   "gap": 0.35,
+   "ahorro50": 17.5,
+   "barata": "Autonetoil",
+   "barata_rotulo": "Autonetoil",
+   "barata_dir": "Carrer Artruxt, 7",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Carretera Aeropuerto Km. 5"
+  },
+  {
+   "municipio": "Meco (Madrid)",
+   "n": 6,
+   "min": 1.709,
+   "max": 2.059,
+   "gap": 0.35,
+   "ahorro50": 17.5,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Camino del Olivo, 1",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Au R-2 ,P.k. 35,5 M.d."
+  },
+  {
+   "municipio": "Terrassa (Barcelona)",
+   "n": 35,
+   "min": 1.599,
+   "max": 1.939,
+   "gap": 0.34,
+   "ahorro50": 17.0,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Avenida del Vallès, 720 B",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Calle Colon, 125"
+  },
+  {
+   "municipio": "Tomelloso (Ciudad Real)",
+   "n": 13,
+   "min": 1.579,
+   "max": 1.919,
+   "gap": 0.34,
+   "ahorro50": 17.0,
+   "barata": "Family Energy",
+   "barata_rotulo": "Family Energy",
+   "barata_dir": "Carretera N-310 Km. 93",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol Comercial",
+   "cara_dir": "Carretera Cr-122 Km. 26,100"
+  },
+  {
+   "municipio": "Arrasate/Mondragón (Gipuzkoa)",
+   "n": 6,
+   "min": 1.589,
+   "max": 1.929,
+   "gap": 0.34,
+   "ahorro50": 17.0,
+   "barata": "Eroski",
+   "barata_rotulo": "Eroski",
+   "barata_dir": "Barrio Musakola, S/N",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Autopista Ap-1 Km. 129"
+  },
+  {
+   "municipio": "l'Hospitalet de Llobregat (Barcelona)",
+   "n": 29,
+   "min": 1.617,
+   "max": 1.955,
+   "gap": 0.338,
+   "ahorro50": 16.9,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Carretera del Mig Km. 36",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Rambla Marina, 428"
+  },
+  {
+   "municipio": "Moià (Barcelona)",
+   "n": 4,
+   "min": 1.623,
+   "max": 1.959,
+   "gap": 0.336,
+   "ahorro50": 16.8,
+   "barata": "BonÀrea",
+   "barata_rotulo": "Bonarea",
+   "barata_dir": "Carretera de Vic Km. 27",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Carretera N-141-C Km. 27,3"
+  },
+  {
+   "municipio": "Onda (Castellón)",
+   "n": 14,
+   "min": 1.617,
+   "max": 1.952,
+   "gap": 0.335,
+   "ahorro50": 16.75,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Calle Lucena del Cid, 12",
+   "cara": "Independiente (sin marca)",
+   "cara_rotulo": "Gmr",
+   "cara_dir": "Calle Mejico, 7"
+  },
+  {
+   "municipio": "Pozuelo de Alarcón (Madrid)",
+   "n": 10,
+   "min": 1.645,
+   "max": 1.979,
+   "gap": 0.334,
+   "ahorro50": 16.7,
+   "barata": "Ballenoil",
+   "barata_rotulo": "Ballenoil",
+   "barata_dir": "Carretera Pozuelo Majadahonda Km. 2",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Carretera Carabanchel M-502 Km. 3600"
+  },
+  {
+   "municipio": "La Pobla de Vallbona (Valencia)",
+   "n": 10,
+   "min": 1.545,
+   "max": 1.879,
+   "gap": 0.334,
+   "ahorro50": 16.7,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Calle Augusto Danvila, 181",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Autovia Cv-35 Km. 17"
+  },
+  {
+   "municipio": "Badalona (Barcelona)",
+   "n": 17,
+   "min": 1.617,
+   "max": 1.949,
+   "gap": 0.332,
+   "ahorro50": 16.6,
+   "barata": "BonÀrea",
+   "barata_rotulo": "Bonarea",
+   "barata_dir": "Calle Estiu, 18,20",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Cl Industria, 629"
+  },
+  {
+   "municipio": "Cornellà de Llobregat (Barcelona)",
+   "n": 10,
+   "min": 1.617,
+   "max": 1.949,
+   "gap": 0.332,
+   "ahorro50": 16.6,
+   "barata": "Ayafuel",
+   "barata_rotulo": "Ayafuel",
+   "barata_dir": "Calle Tirso de Molina, 9",
+   "cara": "Cepsa",
+   "cara_rotulo": "Cepsa",
+   "cara_dir": "Calle Energia, 73/83"
+  },
+  {
+   "municipio": "Utrera (Sevilla)",
+   "n": 14,
+   "min": 1.619,
+   "max": 1.949,
+   "gap": 0.33,
+   "ahorro50": 16.5,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Calle Mirlo, 1",
+   "cara": "Cepsa",
+   "cara_rotulo": "Cepsa",
+   "cara_dir": "Carretera Utrera-los Palacios A362 Km. 4,2"
+  },
+  {
+   "municipio": "Loeches (Madrid)",
+   "n": 4,
+   "min": 1.714,
+   "max": 2.039,
+   "gap": 0.325,
+   "ahorro50": 16.25,
+   "barata": "Galp",
+   "barata_rotulo": "Galp",
+   "barata_dir": "Calle Cañada del Pozo, Sn",
+   "cara": "Repsol",
+   "cara_rotulo": "Repsol",
+   "cara_dir": "Autopista Autopista R-3 Loeches Km. 19,5"
+  },
+  {
+   "municipio": "Reus (Tarragona)",
+   "n": 21,
+   "min": 1.619,
+   "max": 1.943,
+   "gap": 0.324,
+   "ahorro50": 16.2,
+   "barata": "BonÀrea",
+   "barata_rotulo": "Bonarea",
+   "barata_dir": "Carretera Riudoms Km. 2,2",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Autopista Autopista A-7 Km. 1156"
+  },
+  {
+   "municipio": "Valls (Tarragona)",
+   "n": 10,
+   "min": 1.619,
+   "max": 1.943,
+   "gap": 0.324,
+   "ahorro50": 16.2,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Carrer del Pla, 148",
+   "cara": "Cepsa",
+   "cara_rotulo": "Cepsa",
+   "cara_dir": "Calle Blanquers, 51"
+  },
+  {
+   "municipio": "Cuenca (Cuenca)",
+   "n": 14,
+   "min": 1.617,
+   "max": 1.939,
+   "gap": 0.322,
+   "ahorro50": 16.1,
+   "barata": "Plenergy",
+   "barata_rotulo": "Plenergy",
+   "barata_dir": "Avenida Reyes Catolicos, 68",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Calle Fermin Caballero, 19"
+  },
+  {
+   "municipio": "Lleida (Lleida)",
+   "n": 23,
+   "min": 1.622,
+   "max": 1.943,
+   "gap": 0.321,
+   "ahorro50": 16.05,
+   "barata": "BonÀrea",
+   "barata_rotulo": "Bonarea",
+   "barata_dir": "Poligono Industrial el Segre,Parcela 202",
+   "cara": "Moeve",
+   "cara_rotulo": "Moeve",
+   "cara_dir": "Avda. Flix, 41"
+  }
+ ],
+ "horario24_g95": [
+  {
+   "n": 4971,
+   "mediana": 1.799
+  },
+  {
+   "n": 5963,
+   "mediana": 1.919
+  }
+ ],
+ "horario24_ga": [
+  {
+   "n": 5209,
+   "mediana": 1.767
+  },
+  {
+   "n": 6072,
+   "mediana": 1.879
+  }
+ ],
+ "venta_restringida_g95": [
+  null,
+  {
+   "n": 10934,
+   "mediana": 1.889
+  }
+ ],
+ "venta_restringida_ga": [
+  null,
+  {
+   "n": 11281,
+   "mediana": 1.849
+  }
+ ],
+ "calidad": {
+  "sin_coords": 0,
+  "ids_duplicados": 0,
+  "sin_horario": 0,
+  "precio_min_extremo": 1.749,
+  "precio_max_extremo": 1.75
+ }
+}

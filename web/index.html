@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radiografía de los carburantes en España · datos abiertos</title>
+<meta name="description" content="Análisis interactivo de los precios de la gasolina y el gasóleo en las 11.496 estaciones de servicio de España, a partir de datos abiertos del Ministerio.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap head-in">
+    <div class="titles">
+      <p class="kicker">Datos abiertos · precios oficiales en tiempo real</p>
+      <h1>Radiografía del precio de los carburantes en España</h1>
+      <p class="sub" id="subtitulo">Cargando datos…</p>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </div>
+</header>
+
+<nav class="controls" id="barra">
+  <div class="wrap ctrl-in">
+    <label class="fld"><span>Combustible</span><select id="f-fuel"></select></label>
+    <label class="fld"><span>Zona</span><select id="f-zona"></select></label>
+    <label class="fld"><span>Comunidad</span><select id="f-ccaa"></select></label>
+    <label class="fld"><span>Provincia</span><select id="f-prov"></select></label>
+    <label class="fld"><span>Marca</span><select id="f-marca"></select></label>
+    <label class="fld slider"><span>Precio máx.: <b id="lbl-max">—</b></span><input type="range" id="f-max"></label>
+    <label class="chk"><input type="checkbox" id="f-24"><span>Solo 24 h</span></label>
+    <label class="fld grow"><span>Buscar</span><input type="search" id="f-q" placeholder="municipio, dirección o rótulo…"></label>
+    <button class="btn" id="btn-geo" title="Ordenar por distancia a tu posición">📍 Cerca de mí</button>
+    <button class="btn ghost" id="btn-reset">Reiniciar</button>
+  </div>
+</nav>
+
+<main class="wrap grid">
+
+  <div class="col-main">
+
+  <section class="card map-card">
+    <div class="card-head">
+      <h2>Mapa de precios</h2>
+      <p class="hint" id="map-hint">Rueda para acercar · arrastra para mover · doble clic para reiniciar la vista</p>
+    </div>
+    <div class="map-hold" id="map-hold">
+      <canvas id="map"></canvas>
+      <div class="tip" id="tip" hidden></div>
+      <div class="detail" id="detail" hidden></div>
+      <div class="map-btns">
+        <button class="mbtn" id="z-in" title="Acercar">+</button>
+        <button class="mbtn" id="z-out" title="Alejar">−</button>
+        <button class="mbtn" id="z-reset" title="Reiniciar vista">⟳</button>
+      </div>
+    </div>
+    <div class="legend-row">
+      <div class="scale-wrap">
+        <canvas id="scale-canvas" width="300" height="10"></canvas>
+        <div class="scale-labels" id="scale-labels"></div>
+      </div>
+      <p class="legend-note" id="legend-note"></p>
+    </div>
+  </section>
+
+  <section class="card hist-card">
+    <div class="card-head">
+      <h2>Distribución de precios</h2>
+      <p class="hint" id="hist-hint">Clic en una barra para fijar un tope de precio</p>
+    </div>
+    <svg id="hist" role="img" aria-label="Histograma de precios"></svg>
+    <div class="hist-legend">
+      <span><i class="dot med"></i>mediana</span>
+      <span><i class="dot mean"></i>media</span>
+      <span><i class="dot cut"></i>tope aplicado</span>
+      <span id="hist-note"></span>
+    </div>
+  </section>
+
+  </div>
+
+  <aside class="col">
+    <section class="card">
+      <div class="card-head">
+        <h2>Ranking geográfico</h2>
+        <div class="tabs" id="rank-tabs">
+          <button class="tab" data-g="prov" aria-pressed="true">Provincias</button>
+          <button class="tab" data-g="ccaa" aria-pressed="false">Comunidades</button>
+        </div>
+      </div>
+      <div class="tabs sub-tabs" id="rank-side">
+        <button class="tab" data-s="baratas" aria-pressed="true">Más baratas</button>
+        <button class="tab" data-s="caras" aria-pressed="false">Más caras</button>
+      </div>
+      <div id="rank" class="rank"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Marcas</h2>
+        <p class="hint">Mediana por rótulo (≥15 estaciones en la selección)</p>
+      </div>
+      <div id="brands" class="rank"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Misma ciudad, precios distintos</h2>
+        <p class="hint">Municipios con ≥4 estaciones · clic para verlo en el mapa</p>
+      </div>
+      <div id="disp" class="disp"></div>
+    </section>
+  </aside>
+
+  <section class="card wide">
+    <div class="card-head"><h2>Qué dicen los datos</h2><p class="hint" id="insights-hint"></p></div>
+    <div id="insights" class="insights"></div>
+  </section>
+
+  <section class="card wide">
+    <div class="card-head">
+      <h2 id="tabla-titulo">Las más baratas de la selección</h2>
+      <div class="tabs" id="tabla-tabs">
+        <button class="tab" data-sort="precio" aria-pressed="true">Más baratas</button>
+        <button class="tab" data-sort="caras" aria-pressed="false">Más caras</button>
+        <button class="tab" data-sort="cerca" aria-pressed="false" id="tab-cerca">Más cercanas</button>
+      </div>
+    </div>
+    <div id="tabla" class="tabla-hold"></div>
+  </section>
+
+</main>
+
+<footer class="wrap foot">
+  <p><b>Fuente:</b> <span id="fuente-txt"></span>
+     <a id="fuente-url" href="#" target="_blank" rel="noopener">API de precios de carburantes</a>.
+     Datos descargados el <span id="fecha-datos"></span>.</p>
+  <p><b>Metodología:</b> se descarga el archivo completo de productos y estaciones (formato JSON), se normalizan
+     precios (coma decimal) y rótulos, y se agregan por combustible, provincia, comunidad, zona y marca.
+     El mapa usa las coordenadas WGS84 incluidas en el propio dataset; no hay mapa base, cada punto es una estación real.
+     Estas cifras son estadística descriptiva del momento de la descarga, no recomendaciones de repostaje.</p>
+  <p class="mini">Hecho con datos abiertos · página 100 % estática, sin dependencias externas ni llamadas de red.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
