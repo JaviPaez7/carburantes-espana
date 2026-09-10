@@ -1,5 +1,7 @@
 # Radiografía del precio de los carburantes en España
 
+**🌐 Ver online: <https://javipaez7.github.io/carburantes-espana/>**
+
 Análisis y visualización interactiva de los precios de todos los carburantes en las **11.496 estaciones
 de servicio de España**, a partir de los datos abiertos del Ministerio para la Transición Ecológica
 y el Reto Demográfico (API pública, sin clave).
@@ -18,6 +20,8 @@ y el Reto Demográfico (API pública, sin clave).
 | `web/data/provincias.json` | Contornos provinciales simplificados para el mapa. |
 | `analyze.py` · `prep_geo.py` · `informe.py` | Cadena reproducible: normaliza, agrega, simplifica el mapa y redacta el informe. |
 | `explore.py` | Exploración inicial del esquema del volcado. |
+| `docs/` | Copia publicada del sitio (es lo que sirve GitHub Pages, desde `/docs`). |
+| `publicar.ps1` | Sincroniza `web/` → `docs/` y publica los cambios en GitHub Pages. |
 | `shots/` | Capturas de la verificación visual hecha con Chrome headless. |
 
 ## Cómo verlo
